@@ -11,14 +11,12 @@ import styles from './UserList.css';
 }))
 export default class UserList extends PureComponent {
   state = {
-
   }
   componentDidMount() {
     this.props.dispatch({
       type: 'userlist/queryUserList',
     });
     let  detailsid=this.props.match.params.id;
-
   }
   handlelogout= () => {
     this.props.dispatch({

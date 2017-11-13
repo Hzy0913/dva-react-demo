@@ -7,25 +7,18 @@ import styles from './Login.css';
 
 
 
-@connect(state => ({
-  musicurl: state.details.musicdetailsurl,
-  musicdetail: state.details.musicdetail,
-  lrc: state.details.lrc,
-}))
+
 class Login extends PureComponent {
   state = {
-    musicimg:'',
     loginshow:true,
     registershow:false,
     setpassworldshow:false,
   }
   componentDidUpdate(){
     self=this;
-
   }
   componentDidMount() {
     let  detailsid=this.props.match.params.id;
-
   }
   handleregister=(e)=>{
     e.preventDefault();
@@ -129,10 +122,7 @@ class Login extends PureComponent {
     })
   }
   render() {
-
-    // const { getFieldProps } = this.props.form;
     const { getFieldProps, getFieldError } = this.props.form;
-
     return (
       <div>
         <div className={classnames('loginbox',{ 'loginshow': this.state.loginshow })}>
@@ -223,9 +213,7 @@ class Login extends PureComponent {
           </div>
         </div>
       </div>
-
   )
-
   }
 }
 export default createForm()(Login)

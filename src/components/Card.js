@@ -6,31 +6,6 @@ import { Icon } from 'antd-mobile';
 import styles from './Card.css';
 
 function Card({cardList,title,hashHistory }){
-  // function handleDetial(e) {
-  //   e.preventDefault();
-  //   validateFields((error, {postTitle, postContent}) => {
-  //     if (!error) {
-  //       if (isCreator) {
-  //         dispatch({
-  //           type: 'editor/createPost',
-  //           payload: {
-  //             title: postTitle,
-  //             content: postContent-
-  //           }
-  //         });
-  //       } else {
-  //         dispatch({
-  //           type: 'editor/patchPost',
-  //           payload: {
-  //             title: postTitle,
-  //             content: postContent,
-  //             post_id: post.post_id
-  //           }
-  //         });
-  //       }
-  //     }
-  //   });
-  // }
   const handledetails=(id)=>{
     routerRedux.push('/details/123')
   }

@@ -20,9 +20,7 @@ export default class Playbar extends PureComponent {
     if(!musicdetail==true || !musicurl==true){
       return false
     }
-
     var lrccontent='[10:00.00]'
-
     var ap = new APlayer({
       element: this.refs.musicbar,                       // Optional, player element
       narrow: false,                                                     // Optional, narrow style
@@ -42,33 +40,6 @@ export default class Playbar extends PureComponent {
       }
     });
   }
-
-
-  // function handleDetial(e) {
-  //   e.preventDefault();
-  //   validateFields((error, {postTitle, postContent}) => {
-  //     if (!error) {
-  //       if (isCreator) {
-  //         dispatch({
-  //           type: 'editor/createPost',
-  //           payload: {
-  //             title: postTitle,
-  //             content: postContent-
-  //           }
-  //         });
-  //       } else {
-  //         dispatch({
-  //           type: 'editor/patchPost',
-  //           payload: {
-  //             title: postTitle,
-  //             content: postContent,
-  //             post_id: post.post_id
-  //           }
-  //         });
-  //       }
-  //     }
-  //   });
-  // }
   render() {
     return (
       <div className={styles.musicbar} className="musicbar">
