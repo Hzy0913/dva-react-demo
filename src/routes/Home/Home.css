@@ -1,0 +1,44 @@
+.mycarousel {
+}
+.mycarousel a {
+  display: inline-block;
+  width: 100%;
+  margin: 0; padding: 0;
+}
+.mycarousel a img {
+  width: 100%;
+  vertical-align: top;
+}
+.my-carousel .v-item {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 10px;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+.my-drawer {
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+  background-color: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  width: 300px;
+  padding: 0;
+}
+
+
+.hometop{ width:100%;padding:0 40px;position:relative;box-sizing:border-box;background-color:#ee4747}
+.mune{ width:44px;height:100%;position:absolute;left:0px;top:0px;background:url("../../assets/homemune.png") no-repeat;background-size:50% auto;background-position:center center}
+.musicline{ width:44px;height:100%;position:absolute;right:0px;top:0px;}
+:global(.am-search-cancel){color:#fff !important}
+:global(.am-search){background-color:#ee4747 !important}
+:global(.am-drawer-content){ width:100%;padding-top:0px !important;}
+:global(.am-drawer-sidebar){border:none !important; background-color:#ffffff;border-right:1px solid #eee !important}

@@ -1,0 +1,39 @@
+.model{ width:100%;height:60%;background-color:rgba(0,0,0,.4);position:fixed;left:0px; top:0px; z-index:1;}
+.musicbar{height:300px;}
+.control{ width:90%;height:14px;position:fixed;bottom:20px;z-index:9;left:50%;margin-left:-45%}
+.control i{ width:25%;float:left;height:100%;background-repeat:no-repeat;background-size:contain;background-position:center center}
+.loop{background:url("../../assets/loop.png")}
+.random{background:url("../../assets/radom.png")}
+.like{background:url("../../assets/like.png")}
+.menu{background:url("../../assets/menu.png")}
+
+:global(.aplayerbox .aplayer-play){ width:88px;height:88px;background:url("../../assets/palybtn.png") no-repeat !important;background-size:contain !important}
+:global(.aplayerbox .aplayer-pause){ width:88px;height:88px;background:url("../../assets/pause.png") no-repeat !important;background-size:contain !important}
+:global(.aplayerbox .aplayer ){position:fixed !important;bottom:0px;left:0px; width:100%; z-index:2;}
+:global(.aplayerbox .aplayer-icon-play){ display:none !important}
+:global(.aplayerbox .aplayer-icon-pause){ display:none !important}
+:global(.aplayerbox .aplayer-pic){ background:none !important;}
+:global(.aplayerbox .aplayer-pic){ width:90px !important;height:90px !important;margin-left:-45PX !important; left:50% !important; top:120px}
+:global(.aplayerbox .aplayer-button){ width:90px !important;height:90px !important;position:static !important}
+:global(.aplayerbox .aplayer){height:300px !important;margin:0px !important;box-shadow:none;background-color:#ffffff;position:relative}
+:global(.aplayerbox .aplayer-thumb){background-color:#ee4747 !important;width:16px !important;height:4px !important; border-radius:6px !important;display:block;margin-right:-23px !important; margin-top:-2px !important}
+:global(.aplayerbox .aplayer-controller){margin:0px;box-shadow:none;background-color:#ffffff;position:absolute !important;top:20px; width:70%;left:50%;margin-left:-35%;}
+:global(.aplayerbox .aplayer-ptime){position:absolute;left:-25px;}
+:global(.aplayerbox .aplayer-dtime){position:absolute;right:-35px;}
+:global(.aplayerbox .aplayer-time){position:absolute !important;top:-1px; width:100%;}
+:global(.aplayerbox .aplayer-time-inner){ width:100% !important;display:block}
+:global(.aplayerbox .aplayer-music){ width:100% !important;display:block;position:absolute;left:0px; top:50px;}
+:global(.aplayerbox .aplayer-title){ display:block; width:100%;text-align:center;color:#282828; font-size:16px !important;margin-bottom:12px}
+:global(.aplayerbox .aplayer-author){ display:block; width:100%;text-align:center;color:#8a8a8a; font-size:14px !important;}
+:global(.aplayerbox .aplayer-icon-mode){ display:block; width:100%;text-align:center;color:#8a8a8a; font-size:14px !important;}
+:global(.aplayerbox .aplayer-black){ width:50px;height:50px; background:url("../../assets/black.png") no-repeat;position:absolute;left:50%;margin-left:-145px;top:152px;}
+:global(.aplayerbox .aplayer-next){ width:50px;height:50px; background:url("../../assets/next.png") no-repeat;position:absolute;left:50%;margin-left:105px;top:152px;}
+:global(.aplayerbox .aplayer-lrc){ width:80%;position:fixed !important;left:10%;box-sizing:border-box !important; top:14%;height:200px !important; z-index:9;padding-top:78px}
+:global(.aplayerbox .aplayer .aplayer-lrc .aplayer-lrc-contents p){margin-bottom:10px !important;color:#fff !important}
+:global(.aplayerbox .aplayer .aplayer-lrc:before){    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) !important; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) !important;}
+:global(.aplayerbox .aplayer .aplayer-lrc:after){    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) !important; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) !important;}
+:global(.aplayerbox .aplayer-lrc-current){ font-size:16px !important;}
+:global(.aplayerbox .aplayer-icon-mode){ display:none !important}
+:global(.aplayerbox .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap){position:relative; z-index:99 !important;}
+
+

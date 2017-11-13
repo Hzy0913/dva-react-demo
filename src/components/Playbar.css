@@ -1,0 +1,12 @@
+:global(.musicbar){height:60px; width:100%;background-color:#fff;position:relative;box-shadow:0px -2px 4px rgba(180,180,180,.051);position:fixed;left:0px;bottom:0px;}
+.more{height:40px; width:6px;margin-top:14px;margin-left:20px;}
+.more>li{ width:5px;height:5px;border-radius:50%;background-color:#ee4d4d;display:block;margin-bottom:4px}
+.musiccon{ width:100%;height:50px; position:absolute;padding-left:50px;padding-right:50px;box-sizing:border-box;top:0px;}
+.musiccon h1{ font-size:16px;color:#282828;text-align:center;position:relative;top:6px}
+.musiccon p{ font-size:14px;color:#8a8a8a;text-align:center;position:relative;top:3px}
+:global(.musicbar .aplayer-withlrc.aplayer .aplayer-pic){width:50px !important;height:50px !important}
+:global(.musicbar .aplayer-lrc){display:none !important}
+:global(.musicbar .aplayer){box-shadow: 0 2px 2px 0 rgba(80, 80, 80, 0.1), 0 3px 1px -2px rgba(80, 80, 80, 0.1), 0 1px 5px 0 rgba(80, 80, 80, 0.12);}
+:global(.musicbar .aplayer .aplayer-info){height:50px !important;position:relative;margin-left:60px !important}
+:global(.musicbar .aplayer .aplayer-controller){position:absolute !important;bottom:0px; width:90%;}
+:global(.musicbar .aplayer .aplayer-music){position:relative;top:-6px}

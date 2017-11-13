@@ -1,0 +1,10 @@
+.passworldicon{background:url("../../assets/pass.png") no-repeat; width:22px;height:22px;background-size:cover}
+.usericon{background:url("../../assets/user.png") no-repeat; width:22px;height:22px;background-size:cover}
+.loginbox{ width:90%;margin:0 auto}
+.register{ width:90%;margin:0 auto}
+.logout{background-color:#108ee9; font-size:14px;color:#fff; border-radius:4px;padding:4px 6px;display:inline-block;position:absolute;right:10px; top:10px}
+
+:global(.user .am-list-item){margin-bottom:10px !important}
+:global(.register .am-list-item){margin-bottom:10px !important}
+:global(.user .am-list-body){margin-bottom:10px !important}
+:global(.register .am-list-body){margin-bottom:10px !important}

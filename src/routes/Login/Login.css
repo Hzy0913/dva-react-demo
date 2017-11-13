@@ -1,0 +1,23 @@
+.passworldicon{background:url("../../assets/pass.png") no-repeat; width:22px;height:22px;background-size:cover}
+.usericon{background:url("../../assets/user.png") no-repeat; width:22px;height:22px;background-size:cover}
+.setpassworlbtn{margin-top:10px}
+:global(.loginbox){ width:90%;margin:0 auto;display:none}
+:global(.register){ width:90%;margin:0 auto;display:none}
+:global(.setpassworld){ width:90%;margin:0 auto;display:none}
+.logintype p{float:left;}
+.logintype p:last-child{float:right;}
+@-webkit-keyframes fadeInDown{
+  0%{ opacity:0; -webkit-transform:translate3d(0, -100%, 0); transform:translate3d(0, -100%, 0) }
+  65%{ opacity:1; -webkit-transform:none; transform:none }
+}
+@keyframes fadeInDown{
+  0%{ opacity:0; -webkit-transform:translate3d(0, -100%, 0); -ms-transform:translate3d(0, -100%, 0); transform:translate3d(0, -100%, 0) }
+  65%{ opacity:1; -webkit-transform:none; -ms-transform:none; transform:none }
+}
+:global(.loginshow){ -webkit-animation-name:fadeInDown; animation-name:fadeInDown;-webkit-animation-duration:1s; animation-duration:1s; -webkit-animation-fill-mode:both; animation-fill-mode:both;display:block!important; }
+:global(.registershow){ -webkit-animation-name:fadeInDown; animation-name:fadeInDown;-webkit-animation-duration:1s; animation-duration:1s; -webkit-animation-fill-mode:both; animation-fill-mode:both;display:block!important; }
+:global(.setpassworldshow){ -webkit-animation-name:fadeInDown; animation-name:fadeInDown;-webkit-animation-duration:1s; animation-duration:1s; -webkit-animation-fill-mode:both; animation-fill-mode:both;display:block!important; }
+:global(.user .am-list-item){margin-bottom:10px !important}
+:global(.register .am-list-item){margin-bottom:10px !important}
+:global(.user .am-list-body){margin-bottom:10px !important}
+:global(.register .am-list-body){margin-bottom:10px !important}

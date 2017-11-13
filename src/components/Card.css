@@ -1,0 +1,14 @@
+.cardcontainer{background-color:#fff; margin-bottom:15px;box-shadow:0px 2px 1px rgba(180,180,180,.1)}
+.musicheader{position:relative;border-bottom:1px solid #c8c7cc;}
+.musicheader>h1{ font-size:20px;margin-left:20px;padding-top:5px;padding-bottom:5px;}
+.arrow{position:absolute;right:10px;top:4px;}
+.cardbody{position:relative; width:100%;overflow:hidden;padding-bottom:10px;padding-top:10px}
+.cardimg{ width:60px;height:60px;overflow:hidden;margin-left:20px;overflow:hidden;border-radius:4px}
+.cardimg img{ width:100%;}
+.cardcon{padding-left:100px;position:absolute;top:10px;left:0px; width:100%;box-sizing:border-box;padding-bottom:10px !important;}
+.cardcon:before{content:'';height:1px; width:70%;background-color:#e3e3e5;display:block;position:absolute;bottom:0px;}
+.cardbody:last-child .cardcon:before{display:none !important}
+.cardbody h1{font-size:18px;}
+.cardbody p{font-size:16px;color:#8a8a8a}
+.artistsname{ position:relative;top:6px}
+.artistsname span{margin-right:10px;}
