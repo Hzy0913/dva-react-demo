@@ -1,0 +1,29 @@
+{
+  "entry": "src/index.js",
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime",
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        ["import", { "libraryName": "antd-mobile", "style": "css" }]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime",
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        ["import", { "libraryName": "antd-mobile", "style": "css" }]
+      ]
+    }
+  },
+  "proxy": {
+     "/api": {
+            "target": "http://z005.kmtongji.com/api",
+            "changeOrigin": true,
+            "pathRewrite": { "^/api" : "" }
+     }
+   }
+}
